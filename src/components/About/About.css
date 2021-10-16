@@ -1,0 +1,28 @@
+.about {
+  margin: 2em;
+  padding: 2.5em;
+}
+.heading {
+  text-align: center;
+  color: dimgray;
+}
+
+.description {
+  color: darkslategray;
+  font-size: large;
+  font-weight: 800;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.question {
+  text-transform: uppercase;
+  font-size: x-large;
+  font-weight: 700;
+  color: dimgray;
+}
+
+.answer {
+  color: darkslategray;
+  font-weight: 600;
+}

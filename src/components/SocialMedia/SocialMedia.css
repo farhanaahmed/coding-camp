@@ -1,0 +1,23 @@
+.social-media {
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.social-media a {
+  padding: 1.5em;
+}
+.facebook {
+  color: #4968ad;
+}
+
+.twitter {
+  color: #49a1eb;
+}
+
+.instagram {
+  color: purple;
+}
+
+.github {
+  color: white;
+}

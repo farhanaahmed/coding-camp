@@ -1,0 +1,15 @@
+.footer {
+  background-color: #0b0d17;
+  overflow: hidden;
+  height: 240px;
+  text-align: center;
+  margin-top: 3em;
+}
+.footer-slogan {
+  color: whitesmoke;
+  margin: 1em;
+}
+.social {
+  margin: 1.5em;
+  padding-top: 0.5em;
+}
