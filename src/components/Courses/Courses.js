@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Home from '../Home/Home';
-import Services from '../Services/Services';
 
 const Courses = (props)=> {
     const [courses, setCourses]=useState([]);
@@ -17,15 +16,16 @@ const Courses = (props)=> {
   
         });
     },[]);
-    console.log("In courses module");
-    console.log(courses);
-    console.log(props.flag);
+    // console.log("In courses module");
+    // console.log(courses);
+    // console.log(props.flag);
 
     if(props.flag === '1'){
        
        return (
         <div>
             <div>
+
                 <div className="top-banner">
                      <div className="top-img">
                      <img src="https://forerunner.com.au/wp-content/uploads/programming-languages.png" alt="" />
@@ -37,7 +37,8 @@ const Courses = (props)=> {
                 
                  </div>
             </div>
-           <div className="course-container">
+            <p className="course-header">Our Top Courses</p>
+           <div>
                     {
                         
                         displayCourses.map(course => <Home
@@ -52,7 +53,8 @@ const Courses = (props)=> {
     );
     }
     else return (
-        <div className="course-container">
+        <div>
+             <p className="course-header">Our All Courses</p>
             {
                         
                         courses.map(course => <Home

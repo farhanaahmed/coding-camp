@@ -15,17 +15,18 @@ const Home = (props) => {
         const { name, img, description, instructor, price } = course;
         return (
             <div className="home">
-                 <div className="service-container">
+                 <div className="course-container">
                      <div>
-                         <img className="w-75 service-img my-3" src={img} alt="" />
+                         <img className=" w-75 img-fluid service-img my-3" src={img} alt="" />
                      </div>
-                     <div>
-                         <h4 className="service-name">{name}</h4>
+                     <div className="my-3"> 
+                         <h4 className="title">{name}</h4>
                          <p className="details">{description}</p>
                          <p className="instructor">{instructor}</p>
+                         
                      </div>
                      <div>
-                         <button>${price}</button>
+                        <button className="btn-secondary rounded p-2 my-5 mx-2" >${price}</button>
                      </div>
                  </div>
             </div>

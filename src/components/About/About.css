@@ -4,7 +4,10 @@
 }
 .heading {
   text-align: center;
-  color: dimgray;
+  color: #ff335e;
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
 }
 
 .description {

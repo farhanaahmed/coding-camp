@@ -11,7 +11,6 @@ import About from './components/About/About';
 import Header from './components/Header/Header';
 import ContactUs from './components/ContactUs/ContactUs';
 import Home from './components/Home/Home';
-import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';

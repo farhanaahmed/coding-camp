@@ -1,10 +1,11 @@
 .home {
   margin: 1em;
-  padding: 1.5em;
+  padding: 2em;
 }
 .top-banner {
   display: flex;
   margin-bottom: 1.5em;
+  background-color: azure;
 }
 
 .top-heading {
@@ -18,5 +19,26 @@
 }
 
 #name {
+  color: tomato;
+}
+.course-header {
+  color: #ff335e;
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
+  margin: 1em;
+  padding: 0.5em;
+}
+.course-container {
+  display: flex;
+}
+.title {
+  color: darkslategray;
+  font-weight: 800;
+}
+.details {
+  color: slategray;
+}
+.instructor {
   color: tomato;
 }
