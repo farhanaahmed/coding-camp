@@ -27,8 +27,8 @@ const Courses = (props)=> {
             <div>
 
                 <div className="top-banner">
-                     <div className="top-img">
-                     <img src="https://forerunner.com.au/wp-content/uploads/programming-languages.png" alt="" />
+                     <div className="top-img mt-5 pt-4">
+                     <img src="https://i.pinimg.com/originals/0f/39/7c/0f397ca7e9e55d4997a7b95c52fa8b48.png" alt="" />
                      </div>
                      <div className="top-heading">
                          <h2>Welcome to <span id="name">Coding-Camp</span>...!!!</h2>
